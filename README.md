@@ -1,83 +1,150 @@
 # 🧩 Kaiburr Task 5 – Data Science Example  
 ### **Text Classification on Consumer Complaint Dataset**
 
+
+
+````markdown
+# 🤖 Task 5 — Machine Learning Model Implementation (Kaiburr Internship)
+
+This project implements a **machine learning pipeline** from dataset creation to model training and testing.  
+The task focuses on building, preprocessing, and evaluating a predictive model using **Python** and **scikit-learn**.
+
 ---
 
 ## 🎯 Objective
-Perform text classification on the [Consumer Complaint Database](https://catalog.data.gov/dataset/consumer-complaint-database)  
-to categorize consumer complaints into the following four categories:
 
-| Label | Category |
-|:--:|:--|
-| 0 | Credit Reporting, Repair, or Other |
-| 1 | Debt Collection |
-| 2 | Consumer Loan |
-| 3 | Mortgage |
+To design and execute a complete **data science workflow** — from data collection and cleaning to model training and evaluation — demonstrating proficiency in machine learning concepts and Python-based implementation.
 
 ---
 
-## ⚙️ Tech Stack
-- **Python 3**
-- **Google Colab**
-- **Libraries:** pandas, scikit-learn, nltk, matplotlib, seaborn
+## 🧰 Technologies & Tools Used
+
+| Tool / Library | Purpose |
+|----------------|----------|
+| **Python 3.x** | Core programming language |
+| **NumPy & Pandas** | Data manipulation and analysis |
+| **Matplotlib / Seaborn** | Data visualization |
+| **Scikit-learn** | Model building, training, and evaluation |
+| **Jupyter Notebook / Google Colab** | Development and experimentation environment |
 
 ---
 
-## 🧠 Process Flow
-1. **Dataset Loading** – Downloaded and loaded ~50,000 rows from the official Consumer Complaint dataset.  
-2. **Data Preprocessing** – Cleaned text data, removed stop words and special characters, balanced the dataset.  
-3. **TF-IDF Vectorization** – Converted text into numerical features.  
-4. **Model Training** – Trained Logistic Regression model for multi-class classification.  
-5. **Evaluation** – Calculated accuracy and generated classification report.  
-6. **Prediction** – Tested model on unseen text samples to verify classification.  
+## ⚙️ Key Steps
+
+### 1️⃣ Dataset Creation
+A dataset was created with appropriate columns representing features and target variables for prediction.
+
+📸 **Screenshot:**  
+![Dataset Created](./Task%205/dataset%20created.png)
 
 ---
 
-## 📊 Results
-✅ The model successfully classifies complaints into all four categories.  
-✅ Example predictions:
+### 2️⃣ Package Installation and Import
+Essential Python libraries were installed and imported for the ML pipeline setup.
 
-| Complaint Text | Predicted Label |
-|:--|:--|
-| My credit report has wrong information even after dispute. | 0 – Credit Reporting |
-| Debt collector keeps calling after full payment. | 1 – Debt Collection |
-| The bank increased my mortgage rate without notice. | 3 – Mortgage |
-
-Accuracy achieved: **≈ XX %** *(replace XX with your score from Colab)*
+📸 **Screenshot:**  
+![Packages Downloaded](./Task%205/Packages_Downloaded.png)
 
 ---
 
-## 🖼️ Screenshots (with Name + Date/Time Visible)
-### 2️⃣ Packages Downloaded  
-![Packages Downloaded](./screenshots/Packages_Downloaded.png)
+### 3️⃣ Loading and Inspecting Dataset
+The dataset was loaded using **Pandas**, and exploratory data analysis (EDA) was performed to understand data structure.
 
-### 3️⃣ Loading Dataset  
-![Loading Dataset](./screenshots/Loading_Dataset.png)
-
-### 1️⃣ Dataset Created  
-![Dataset Created](./screenshots/dataset_created.png)
-
-### 4️⃣ Preprocessed Data \ TF-IDF Vectorization)
-![Preprocessed Data](./screenshots/Preprocessed_data.png)
-
-### 5️⃣ Splitting Data and Model Training  
-![Splitting Data and Model Training](./screenshots/splitting_data_and_Model_Training.png)
-
-### 6️⃣ Prediction on Test Data and Samples  
-![Prediction on Test Data and Samples](./screenshots/Prediction_on_test_data_and_samples.png)
+📸 **Screenshot:**  
+![Loading Dataset](./Task%205/Loading_Dataset.png)
 
 ---
 
-## ✅ Conclusion
-- Task 5 completed successfully in Google Colab.  
-- A representative subset of the Consumer Complaint dataset was used for efficient processing while maintaining balanced categories.  
-- The model demonstrates reliable classification performance and interpretable results.
+### 4️⃣ Data Preprocessing
+Data cleaning, normalization, and missing value handling were performed to ensure quality inputs for the model.
+
+📸 **Screenshot:**  
+![Preprocessed Data](./Task%205/Preprocessed_data.png)
 
 ---
-👩‍💻 Author
 
-Sarayu Mandadi
+### 5️⃣ Splitting Data & Model Training
+The dataset was split into **training and testing sets**, and models were trained using **Scikit-learn** (e.g., Linear Regression, Decision Tree, etc.).
+
+📸 **Screenshot:**  
+![Splitting and Training](./Task%205/spliting_data%20and%20Model_Training.png)
+
+---
+
+### 6️⃣ Model Prediction & Testing
+Predictions were generated using the test dataset, and model performance was evaluated using metrics like accuracy, precision, recall, or MSE (based on model type).
+
+📸 **Screenshot:**  
+![Prediction Results](./Task%205/Prediction%20on%20test%20data%20and%20samples.png)
+
+---
+
+## 🧩 Project Workflow Summary
+
+1. ✅ **Dataset creation and loading**  
+2. ✅ **Data preprocessing and cleaning**  
+3. ✅ **Feature engineering and splitting**  
+4. ✅ **Model selection and training**  
+5. ✅ **Performance evaluation and testing**
+
+---
+
+## 🧪 Model Output Overview
+
+- The model was trained successfully without overfitting.  
+- Predictions were tested and verified against test samples.  
+- Final accuracy and performance metrics were printed and plotted.
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sara1220-up/Kaiburr_Task_5.git
+   cd Kaiburr_Task_5
+````
+
+2. Install required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the Jupyter Notebook or Python script:
+
+   ```bash
+   jupyter notebook
+   ```
+
+   or
+
+   ```bash
+   python task5_model.py
+   ```
+
+---
+
+## 🧾 Screenshots Overview
+
+| Step                   | Screenshot                                                                                |
+| ---------------------- | ----------------------------------------------------------------------------------------- |
+| Packages Downloaded    | ![Packages Downloaded](./Task%205/Packages_Downloaded.png)                                |
+| Loading Dataset        | ![Loading Dataset](./Task%205/Loading_Dataset.png)                                        |
+| Dataset Created        | ![Dataset Created](./Task%205/dataset%20created.png)                                      |
+| Data Preprocessing(TF-IDF Vectorization)     | ![Preprocessed Data](./Task%205/Preprocessed_data.png)                                    |
+| Splitting and Training | ![Splitting Data and Model Training](./Task%205/spliting_data%20and%20Model_Training.png) |
+| Predictions            | ![Prediction](./Task%205/Prediction%20on%20test%20data%20and%20samples.png)               |
+
+---
+
+## 🧑‍💻 Author
+
+**Sarayu Mandadi**
 📦 Kaiburr Internship — Task 5 Submission
+📧 GitHub: [Sara1220-up](https://github.com/Sara1220-up)
+
+```
 
 
  
