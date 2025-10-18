@@ -111,10 +111,10 @@ Predictions were generated using the test dataset, and model performance was eva
    pip install -r requirements.txt
    ```
 
-3. Run the Jupyter Notebook or Python script:
+3. Run the colab Notebook or Python script:
 
    ```bash
-   jupyter notebook
+   colab notebook
    ```
 
    or
