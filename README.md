@@ -125,18 +125,16 @@ Predictions were generated using the test dataset, and model performance was eva
 
 ---
 
-## 🧾 Screenshots Overview
+## 📷 Screenshots Overview
 
-| Step                   | Screenshot                                                                                |
-| ---------------------- | ----------------------------------------------------------------------------------------- |
-| Packages Downloaded    | ![Packages Downloaded](./Task%205/Packages_Downloaded.png)                                |
-| Loading Dataset        | ![Loading Dataset](./Task%205/Loading_Dataset.png)                                        |
-| Dataset Created        | ![Dataset Created](./Task%205/dataset%20created.png)                                      |
-| Data Preprocessing(TF-IDF Vectorization)     | ![Preprocessed Data](./Task%205/Preprocessed_data.png)                                    |
-| Splitting and Training | ![Splitting Data and Model Training](./Task%205/spliting_data%20and%20Model_Training.png) |
-| Predictions            | ![Prediction](./Task%205/Prediction%20on%20test%20data%20and%20samples.png)               |
-
----
+| Step | Screenshot |
+|---|---|
+| 1️⃣ Packages Downloaded | [Packages Downloaded](./Packages_Downloaded.png) |
+| 2️⃣ Loading Dataset | [Loading Dataset](./Loading_Dataset.png) |
+| 3️⃣ Dataset Created | [Dataset Created](./datasetcreated.png) |
+| 4️⃣ Data Preprocessing (TF-IDF Vectorization) | [Preprocessed Data](./Preprocessed_data.png) |
+| 5️⃣ Splitting Data and Model Training | [Splitting Data and Model Training](./splitting_dataandModel_Training.png) |
+| 6️⃣ Predictions | [Prediction on Test Data and Samples](./Predictionontestdataandsamples.png) |
 
 ## 🧑‍💻 Author
 
